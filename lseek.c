@@ -1,6 +1,6 @@
 #include <sys/types.h>
-#include <unistd.h>
-#include <fcntl.h>
+#include <unistd.h> // read(), write(), close(), unlink()
+#include <fcntl.h> // open(), creat()
 #include <stdio.h>
 
 int main() {
