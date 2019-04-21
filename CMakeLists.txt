@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 3.0.0)
+project (demo)
+add_executable(fno fno.c)
+add_executable(lseek lseek.c)
+add_executable(lshift lshift.c)
